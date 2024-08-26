@@ -43,6 +43,15 @@ export const socials = [
 export const reviews = [
 	{
 		profilePic:
+			"https://lh3.googleusercontent.com/a-/ALV-UjX9ZoJ3U3koMEzC10adZB8vrfFqh_8DFVUgIuBMr5eHef7eHZDp=s48-w48-h48",
+		username: "Navya s",
+		rating: "5 out of 5 stars",
+		date: "Aug 26, 2024",
+		reviewText:
+			"Just tried this extension today and it actually works wonders!!",
+	},
+	{
+		profilePic:
 			"https://lh3.googleusercontent.com/a/ACg8ocLLAlrgZivuRKuHphPPPEl5eRSjLBz7U4cvFqkO8VoUb6exEA=s48-w48-h48",
 		username: "Lumina",
 		rating: "5 out of 5 stars",
