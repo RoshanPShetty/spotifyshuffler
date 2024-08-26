@@ -39,7 +39,7 @@ const Hero = () => {
 							href="#"
 							className="px-10 h-12 n-gradient font-semibold rounded-xl shadow-lg flex gap-2 items-center justify-center"
 						>
-							Install Extension{" "}
+							Install <span className="hidden md:block">Extension</span>
 							<Image src="/chrome.svg" alt="chrome" width={20} height={20} />
 						</motion.a>
 						<motion.a
@@ -50,7 +50,7 @@ const Hero = () => {
 							href="#countdown"
 							className="px-10 h-12 text-white font-semibold rounded-xl shadow-lg shadow-white/10 border border-white flex gap-2 items-center justify-center"
 						>
-							Learn More
+							Learn <span className="hidden md:block">More</span>
 							<ArrowDown className="size-4" />
 						</motion.a>
 					</div>
@@ -77,7 +77,6 @@ const shuffle = (array: any) => {
 
 	return array;
 };
-
 
 const generateSquares = () => {
 	return shuffle(albums).map((albumb: any) => (
