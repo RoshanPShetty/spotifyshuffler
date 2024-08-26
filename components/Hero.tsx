@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import ArrowDown from "../public/arrow-down.svg";
 import { albums } from "@/data";
 
-const ShuffleHero = () => {
+const Hero = () => {
 	return (
 		<div className="py-16 lg:pb-24" id="home">
 			<section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
@@ -114,4 +114,4 @@ const ShuffleGrid = () => {
 	);
 };
 
-export default ShuffleHero;
+export default Hero;
