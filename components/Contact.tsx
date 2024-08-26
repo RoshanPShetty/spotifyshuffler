@@ -6,7 +6,10 @@ import { track } from "@vercel/analytics";
 
 const Contact = () => {
 	return (
-		<div className="pb-16 lg:pb-24" id="contact">
+		<div
+			className="pb-16 lg:pb-24 relative inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_3px),linear-gradient(to_bottom,#80808012_1px,transparent_3px)] bg-[size:24px_24px]"
+			id="contact"
+		>
 			<div className="container rounded-2xl row-span-3 n-gradient text-black overflow-hidden">
 				<div className="lg:grid lg:grid-cols-5 lg:py-4 sm:items-center sm:justify-center sm:flex sm:flex-col sm:px-8">
 					<div className="lg:col-span-4 text-white">
