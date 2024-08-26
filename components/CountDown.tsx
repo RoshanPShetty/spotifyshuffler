@@ -12,7 +12,10 @@ const DAY = HOUR * 24;
 
 const Countdown = () => {
 	return (
-		<div className="pb-16" id="countdown">
+		<div
+			className="pb-16"
+			id="countdown"
+		>
 			<div className="flex justify-center">
 				<p className="uppercase font-semibold tracking-widest n-gradient text-transparent bg-clip-text">
 					Launching soon
@@ -22,8 +25,7 @@ const Countdown = () => {
 				Days till release
 			</h2>
 			<p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 mb-8 max-w-md mx-auto">
-				Revolutionize your Spotify experience in
-				September 2024.
+				Revolutionize your Spotify experience in September 2024.
 			</p>
 			<div className="mx-auto flex w-full max-w-5xl items-center bg-white rounded-2xl">
 				<CountdownItem unit="Day" text="days" />

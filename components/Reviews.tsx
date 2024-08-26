@@ -5,7 +5,7 @@ import { FaRegStar, FaStar } from "react-icons/fa";
 
 const Reviews = () => {
 	return (
-		<div className="py-16 lg:py-24" id="reviews">
+		<div className="py-16 lg:py-24 " id="reviews">
 			<div className="flex justify-center">
 				<p className="uppercase font-semibold tracking-widest n-gradient text-transparent bg-clip-text">
 					What others are saying

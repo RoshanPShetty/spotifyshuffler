@@ -7,7 +7,10 @@ import { albums } from "@/data";
 
 const Hero = () => {
 	return (
-		<div className="py-16 lg:pb-24" id="home">
+		<div
+			className="py-16 lg:pb-24 relative inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_3px),linear-gradient(to_bottom,#80808012_1px,transparent_3px)] bg-[size:24px_24px]"
+			id="home"
+		>
 			<section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
 				<div>
 					<span className="uppercase mb-4 text-xs md:text-sm n-gradient bg-clip-text text-transparent font-medium flex gap-2 items-end">
