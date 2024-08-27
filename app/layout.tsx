@@ -3,6 +3,7 @@ import { Calistoga, Inter } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const calistoga = Calistoga({
@@ -33,6 +34,7 @@ export default function RootLayout({
 			>
 				{children}
 				<GoogleAnalytics gaId={process.env.TAG_ID as string} />
+				<Analytics />
 			</body>
 		</html>
 	);
