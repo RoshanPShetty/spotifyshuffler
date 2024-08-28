@@ -7,6 +7,7 @@ Welcome to the **Spotify Playlist Randomizer Landing Page** repository! 🚀 Thi
 ![Landing Page](./public/landing.jpeg)
 _The main landing page of the Spotify Playlist Randomizer._
 
+
 ## 🛠 **Tech Stack**
 
 - **Next.js**: A powerful React framework for server-rendered or statically generated pages.
