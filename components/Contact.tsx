@@ -17,7 +17,7 @@ const Contact = () => {
 							Have a feature request?
 						</p>
 						<p className="pt-4 mb-4 font-medium text-sm lg:text-lg">
-							Help us enhance Spotify Shuffler — Your feedback is valuable!
+							Help us enhance Spotify Shuffle — Your feedback is valuable!
 						</p>
 					</div>
 					<div className="lg:col-span-1 lg:items-end lg:justify-end sm:pb-4">

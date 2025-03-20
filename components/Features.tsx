@@ -43,7 +43,7 @@ const Features = () => {
 			</h2>
 
 			<p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">
-				Discover how Spotify Shuffler elevates your music experience with
+				Discover how Spotify Shuffle elevates your music experience with
 				advanced, personalized shuffle options.
 			</p>
 			<section className="mx-auto max-w-7xl px-4 py-12">

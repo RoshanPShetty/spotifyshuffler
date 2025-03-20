@@ -14,7 +14,7 @@ const Hero = () => {
 			<section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
 				<div>
 					<span className="uppercase mb-4 text-xs md:text-sm n-gradient bg-clip-text text-transparent font-medium flex gap-2 items-end">
-						Spotify Shuffler{" "}
+						Spotify Shuffle{" "}
 						<Image
 							src="/logo.png"
 							alt="logo"
@@ -36,7 +36,7 @@ const Hero = () => {
 							animate={{ scale: 1 }}
 							whileHover={{ scale: 1.05 }}
 							transition={{ duration: 0.3 }}
-							href="https://chromewebstore.google.com/detail/spotify-shuffler-perfectl/fgbfeleilceeliclpafbnjonnlehojff"
+							href="https://chromewebstore.google.com/detail/spotify-shuffle-quickly-r/ijblgikblehedakbkdpbjcjabomboaep?authuser=0&hl=en"
 							className="px-10 h-12 n-gradient font-semibold rounded-xl shadow-lg flex gap-2 items-center justify-center"
 						>
 							Install <span className="hidden md:block">Extension</span>

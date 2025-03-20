@@ -13,7 +13,7 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-	title: "Spotify Shuffler",
+	title: "Spotify Shuffle",
 	description:
 		"Sick of Spotify's boring shuffle? Shake up your playlists with our permanent shuffle and keep the tunes fresh every time!",
 };
